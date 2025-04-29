@@ -1,3 +1,3 @@
-def call(Map config = [:]) {
-  sh "echo Hello ${config.name}. Today is ${config.day}."
+def call() {
+  echo "Hello world"
 }
